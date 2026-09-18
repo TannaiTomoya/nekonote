@@ -27,3 +27,13 @@ coverage/
 
 # Local Supabase state
 .supabase/
+
+# Browser verification output (curated screenshots live under public/guide)
+test-results/
+playwright-report/
+artifacts/
+.cache/
+*.blend1
+.vercel
+.env*
+!.env.example
