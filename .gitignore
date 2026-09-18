@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Vercel
+.vercel/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Test and build output
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local Supabase state
+.supabase/
